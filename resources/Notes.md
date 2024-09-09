@@ -8,5 +8,6 @@
 
 ## Section1:
 - Amazing work @Richard and @Tim
+- Some discovery regarding the project scope and collaboration 
 - Action Item will be in the Discord channel
 
