@@ -35,5 +35,6 @@ To ensure a smooth onboarding experience, the following criteria should be met:
 - [ ] Contribute to the discussion on the [Collaboration Board](https://www.figma.com/board/8ByAhNi4beFyRFRKVSBLH5/Orange-Board?node-id=0-1&t=KdqWDxHU7CWV99aj-1) by sharing your insights or offering improvements to the current designs.
 - [ ] Submit your first pull request after making your first contribution, ensuring it meets the project’s coding standards and passes unit tests.
 
+---
 
 [Next Page](backlog_and_storytelling.md)

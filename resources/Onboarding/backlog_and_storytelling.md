@@ -23,9 +23,6 @@ In short, storytelling in software development is about humanizing the project a
 
 ---
 
-
----
-
 ## What is a Backlog?
 
 - A backlog is a list of tasks, features, and improvements that are planned for the project. Each item in the backlog represents a specific piece of work that will be prioritized based on the project roadmap. In the Orange Project, the backlog is managed on our [Kanban Board & Project Roadmap](https://github.com/users/jackyhuynh/projects/6), where you will find tasks organized into categories like “To Do,” “In Progress,” and “Done.”
@@ -48,10 +45,12 @@ For the *Orange Project*, the backlog might contain items like:
 
 ---
 
-## What is a User Persona?
+## What is a User Personas?
 
 A user persona is a representation of the target audience for whom we are building the Orange Project. These personas are fictional characters based on real data and user research. They help guide the development process by keeping the end user in mind when making design and functionality decisions. 
 
 Our user personas are defined and continually refined based on feedback and research, with a focus on developers needing a fast, reliable, and scalable API.
+
+---
 
 [Previous Page](index.md)
