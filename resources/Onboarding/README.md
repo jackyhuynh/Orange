@@ -10,7 +10,9 @@ The *Orange Project* is a software development initiative that is in the early s
 You are joining the Orange Project as a new team member, and we are excited to have you onboard. This document serves as a guide to help you understand the key elements of the project, how we work, and what is expected from you.
 
 ## Table of Contents
-1. [Backlog and Story Telling](backlog_and_storytelling.md)
+1. [Backlog and Story Telling](./backlog_and_storytelling.md)
+2. [User Personas](./user_personas.md)
+3. [Clear Documentation Writing](./)
 
 ## Resources
 
@@ -37,4 +39,3 @@ To ensure a smooth onboarding experience, the following criteria should be met:
 
 ---
 
-[Next Page](backlog_and_storytelling.md)
