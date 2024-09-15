@@ -1,13 +1,12 @@
 # Orange Notes
 
-## Communication:
+## Communication
 - Discord channel
-- Project Board: GitHub Project
-- Repos: GitHub: Orange
+- Project Board in GitHub Project
+- Repos in GitHub
 - Figma Board
 
-## Section1:
+## Section1
 - Amazing work @Richard and @Tim
-- Some discovery regarding the project scope and collaboration 
+- Some discovery regarding the project scope and collaboration
 - Action Item will be in the Discord channel
-
