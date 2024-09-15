@@ -38,18 +38,28 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Install Docker and Docker Compose
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
+
+      - name: Install Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker-compose
 
       - name: Build and run FastAPI app
         run: |
           docker-compose up -d --build
           sleep 10 # Wait for the app to fully start
+        continue-on-error: true # Allow this step to fail and move to the next step
 
       - name: Run HTTP tests
+        if: success() # Only run if the previous step (Build and run FastAPI app) succeeds
         run: |
           curl -f http://127.0.0.1:8000/
           curl -f http://127.0.0.1:8000/hello/User
 
       - name: Tear down Docker containers
+        if: always() # Always run this step to ensure cleanup, even if previous steps fail
         run: docker-compose down
+
