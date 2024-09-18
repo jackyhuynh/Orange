@@ -15,11 +15,17 @@
 ### Section2
 - Quick review
 
-## Command for Run
+## Test Run
+**Test Linter**
 ```bash
 docker run -e RUN_LOCAL=true -e GITHUB_TOKEN=$GITHUB_TOKEN -v $(pwd):/tmp/lint github/super-linter
 ```
 
+**Run**
+```bash
+docker compose build
+docker compose up
+```
 ## Resources
 - Repositories: [Orange Code Repository](https://github.com/jackyhuynh/orange.git)
 - Kanban Board & Project Roadmap: [Orange Project Board & Roadmap](https://github.com/users/jackyhuynh/projects/6)
