@@ -1,2 +1,4 @@
 fastapi~=0.112.1
 uvicorn
+fastapi-keycloak
+jinja2
