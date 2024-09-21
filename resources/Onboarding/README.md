@@ -17,6 +17,7 @@ a guide to help you understand the key elements of the project, how we work, and
 1. [Backlog and Story Telling](./backlog_and_storytelling.md)
 2. [User Personas](./user_personas.md)
 3. [Clear Documentation Writing](./)
+4. [What is Docker](./docker.md)
 
 ## Resources
 
