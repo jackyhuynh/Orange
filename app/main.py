@@ -17,7 +17,7 @@ keycloak = FastAPIKeycloak(
     client_id="truchuynh",
     client_secret="truc",
     realm="orange-team-realm",
-    admin_client_secret="eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjOGVjYmI5Yi0xZTMwLTQzNDMtYjQ5OC03MGVkOGUzNzJlZjYifQ.eyJleHAiOjE3NTg0NzE4NjgsImlhdCI6MTcyNjkzNTg2OCwianRpIjoiYzA5YWM3NjQtODRkMC00OWMwLWI0NGQtODQ5OWUzZjhiZjhkIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9vcmFuZ2UtdGVhbS1yZWFsbSIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvb3JhbmdlLXRlYW0tcmVhbG0iLCJ0eXAiOiJJbml0aWFsQWNjZXNzVG9rZW4ifQ.ZHORQeNNOedlCOar1_GSnH9_1zSZyh9AJtzIUmblIpz3115B4A89XoEexNeGAGRe-RIAw2ORukYXCG7LuskRpA",
+    admin_client_secret="your-admin-client-secret",
     callback_uri="http://localhost:8000/callback"
 )
 app.mount("/auth", keycloak.router)
