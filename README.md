@@ -17,7 +17,7 @@
 
 ## Install dependencies:
 ```bash
-python3 pip install fastapi fastapi-keycloak uvicorn jinja2 python-multipart
+python3 -m pip install fastapi fastapi-keycloak uvicorn jinja2 python-multipart
 ```
 ## Test Run
 **Test Linter**
