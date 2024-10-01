@@ -1,7 +1,3 @@
-Here’s the rewritten README for the **Orange Project** with a concise summary of each tech stack item:
-
----
-
 # Orange Project
 
 ## Tech Stack
