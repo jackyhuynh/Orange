@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Run Super Linter
       - name: Run Super Linter
@@ -36,7 +36,7 @@ jobs:
           - 8000:80
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Install Docker and Docker Compose
       - name: Set up Docker Buildx
