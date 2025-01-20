@@ -11,3 +11,16 @@ services:
     volumes:
       - .:/app
     command: [ "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80", "--reload" ]
+#    depends_on:
+#      - keycloak  # Ensure Keycloak service is up before starting the FastAPI app
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: keycloak
+    environment:
+      KEYCLOAK_ADMIN: admin   # Set the Keycloak admin username
+      KEYCLOAK_ADMIN_PASSWORD: admin  # Set the Keycloak admin password
+    ports:
+      - "8080:8080"  # Expose Keycloak on port 8080
+    command:
+      - start-dev  # Run Keycloak in development mode (auto-configures a database)

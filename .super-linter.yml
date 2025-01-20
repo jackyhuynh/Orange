@@ -1,7 +1,0 @@
-# This file allows you to customize the linter
-# List of supported languages here: https://github.com/github/super-linter#supported-linters
-
-# Choose linters to enable
-LINTER_RULES_PATH: ./linter-rules  # (Optional) Set custom rules path
-VALIDATE_PYTHON_PYLINT: true       # Enable python linting with pylint
-VALIDATE_JAVASCRIPT_ES: true       # Enable JavaScript linting
