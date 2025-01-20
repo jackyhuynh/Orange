@@ -30,7 +30,7 @@ jobs:
     needs: lint
     services:
       docker:
-        image: docker:20.10.24
+        image: docker:27.5.0
         options: --privileged
         ports:
           - 8000:80
